@@ -1,0 +1,221 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:curly-lib
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R?
+U 1 1 59BA13F5
+P 2750 4600
+F 0 "R?" V 2830 4600 50  0000 C CNN
+F 1 "R" V 2750 4600 50  0000 C CNN
+F 2 "" V 2680 4600 50  0001 C CNN
+F 3 "" H 2750 4600 50  0001 C CNN
+	1    2750 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 59BA1445
+P 2500 4850
+F 0 "R?" V 2580 4850 50  0000 C CNN
+F 1 "R" V 2500 4850 50  0000 C CNN
+F 2 "" V 2430 4850 50  0001 C CNN
+F 3 "" H 2500 4850 50  0001 C CNN
+	1    2500 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59BA1487
+P 3000 4850
+F 0 "R?" V 3080 4850 50  0000 C CNN
+F 1 "R" V 3000 4850 50  0000 C CNN
+F 2 "" V 2930 4850 50  0001 C CNN
+F 3 "" H 3000 4850 50  0001 C CNN
+	1    3000 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59BA152F
+P 1950 5050
+F 0 "#PWR?" H 1950 4800 50  0001 C CNN
+F 1 "GND" H 1950 4900 50  0000 C CNN
+F 2 "" H 1950 5050 50  0001 C CNN
+F 3 "" H 1950 5050 50  0001 C CNN
+	1    1950 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59BA155C
+P 2500 5050
+F 0 "#PWR?" H 2500 4800 50  0001 C CNN
+F 1 "GND" H 2500 4900 50  0000 C CNN
+F 2 "" H 2500 5050 50  0001 C CNN
+F 3 "" H 2500 5050 50  0001 C CNN
+	1    2500 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59BA157F
+P 3000 5050
+F 0 "#PWR?" H 3000 4800 50  0001 C CNN
+F 1 "GND" H 3000 4900 50  0000 C CNN
+F 2 "" H 3000 5050 50  0001 C CNN
+F 3 "" H 3000 5050 50  0001 C CNN
+	1    3000 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59BA15BB
+P 3550 5050
+F 0 "#PWR?" H 3550 4800 50  0001 C CNN
+F 1 "GND" H 3550 4900 50  0000 C CNN
+F 2 "" H 3550 5050 50  0001 C CNN
+F 3 "" H 3550 5050 50  0001 C CNN
+	1    3550 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 5050 3550 4900
+Wire Wire Line
+	1950 5050 1950 4900
+Wire Wire Line
+	2500 5050 2500 5000
+Wire Wire Line
+	3000 5050 3000 5000
+Wire Wire Line
+	2900 4600 3000 4600
+Wire Wire Line
+	3000 4600 3100 4600
+Wire Wire Line
+	2400 4600 2500 4600
+Wire Wire Line
+	2500 4600 2600 4600
+Wire Wire Line
+	2500 4700 2500 4600
+Connection ~ 2500 4600
+Wire Wire Line
+	3000 4700 3000 4600
+Connection ~ 3000 4600
+Wire Wire Line
+	2400 4200 3100 4200
+$Comp
+L +3V3 #PWR?
+U 1 1 59BA1728
+P 1950 3850
+F 0 "#PWR?" H 1950 3700 50  0001 C CNN
+F 1 "+3V3" H 1950 3990 50  0000 C CNN
+F 2 "" H 1950 3850 50  0001 C CNN
+F 3 "" H 1950 3850 50  0001 C CNN
+	1    1950 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 59BA174B
+P 3550 3850
+F 0 "#PWR?" H 3550 3700 50  0001 C CNN
+F 1 "+3V3" H 3550 3990 50  0000 C CNN
+F 2 "" H 3550 3850 50  0001 C CNN
+F 3 "" H 3550 3850 50  0001 C CNN
+	1    3550 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 3900 1950 3850
+Wire Wire Line
+	3550 3900 3550 3850
+$Comp
+L Conn_Coaxial J?
+U 1 1 59BA1793
+P 900 4600
+F 0 "J?" H 910 4720 50  0000 C CNN
+F 1 "Conn_Coaxial" V 1015 4600 50  0000 C CNN
+F 2 "" H 900 4600 50  0001 C CNN
+F 3 "" H 900 4600 50  0001 C CNN
+	1    900  4600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 4600 1500 4600
+$Comp
+L GND #PWR?
+U 1 1 59BA184C
+P 900 4950
+F 0 "#PWR?" H 900 4700 50  0001 C CNN
+F 1 "GND" H 900 4800 50  0000 C CNN
+F 2 "" H 900 4950 50  0001 C CNN
+F 3 "" H 900 4950 50  0001 C CNN
+	1    900  4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  4800 900  4950
+$Comp
+L PE4259 U?
+U 1 1 59BA196E
+P 1950 4400
+F 0 "U?" H 1800 4450 60  0000 C CNN
+F 1 "PE4259" H 1950 4350 60  0000 C CNN
+F 2 "" H 1950 4550 60  0001 C CNN
+F 3 "" H 1950 4550 60  0001 C CNN
+	1    1950 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L PE4259 U?
+U 1 1 59BA1A6D
+P 3550 4400
+F 0 "U?" H 3400 4450 60  0000 C CNN
+F 1 "PE4259" H 3550 4350 60  0000 C CNN
+F 2 "" H 3550 4550 60  0001 C CNN
+F 3 "" H 3550 4550 60  0001 C CNN
+	1    3550 4400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
